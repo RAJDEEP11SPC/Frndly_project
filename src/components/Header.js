@@ -3,10 +3,18 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Header = () => {
   return (
+
     /* Carousel Section */
     <section style={{ marginTop: "10rem" }}>
       <Carousel className="stylingcs">
         <Carousel.Item>
+
+      /* Carousel Section */
+  <section>
+  <Carousel className="stylingcs" interval={1000} variant="dark">
+        <Carousel.Item >
+          
+
           <div className="carouselcs">
             <h2>
               I no longer have to look around for help. I've found the best
