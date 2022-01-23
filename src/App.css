@@ -268,8 +268,46 @@
 	margin-bottom: 5px;
 }
 
+/* Google Signin */
+
+.g-signin{
+    position: relative;
+	margin-left: 50%;
+	
+}
+
+/* Google Signin */
+
+.card-btn{
+	margin-left: 300px;
+  
+  
+  
+}
+
+.card-details{
+	
+	margin-left: 180px;
+	margin-bottom: 50px;
+	
+}
+
+.card-txt{
+	margin-left: 50%;
+	margin-top: 10px;
+
+}
+.card1{
+	margin-left: 170px;
+}
+
+.card-img{
+	height: 400px;
+}
 
 
+
+	
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

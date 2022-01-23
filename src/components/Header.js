@@ -6,7 +6,7 @@ const Header = () => {
   return (
       /* Carousel Section */
   <section>
-  <Carousel className="stylingcs">
+  <Carousel className="stylingcs" interval={1000} variant="dark">
         <Carousel.Item >
           
           <div className="carouselcs">
