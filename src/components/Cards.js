@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCar
 
 const Cards = () => {
   return (
-    <div className='card-bg ' style={{ backgroundImage: "url(./images/flowers.png)" }}> 
+    <div className='card-bg  ' style={{ backgroundImage: "url(./images/flowers.png)" }}> 
       <div className='card-details'>
       <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
       <MDBCol>
