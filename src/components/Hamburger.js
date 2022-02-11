@@ -1,5 +1,6 @@
 import React from 'react';
 import Login from './Login';
+import Fb from './Fb'
 
 const Harmburger = () => {
 	return (
@@ -24,7 +25,7 @@ const Harmburger = () => {
 				</li>
 				<li>
 					<a class='menu__item' href='#'>
-						Facebook Login
+						<Fb />
 					</a>
 				</li>
 			</ul>
