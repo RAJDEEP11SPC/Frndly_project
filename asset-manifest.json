@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Frndly_project/static/css/main.aa9d9f14.css",
+    "main.js": "/Frndly_project/static/js/main.b7e504c8.js",
+    "static/js/787.699e8cbf.chunk.js": "/Frndly_project/static/js/787.699e8cbf.chunk.js",
+    "static/media/doggo.jpg": "/Frndly_project/static/media/doggo.347e790be3fced192609.jpg",
+    "index.html": "/Frndly_project/index.html",
+    "main.aa9d9f14.css.map": "/Frndly_project/static/css/main.aa9d9f14.css.map",
+    "main.b7e504c8.js.map": "/Frndly_project/static/js/main.b7e504c8.js.map",
+    "787.699e8cbf.chunk.js.map": "/Frndly_project/static/js/787.699e8cbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa9d9f14.css",
+    "static/js/main.b7e504c8.js"
+  ]
+}
