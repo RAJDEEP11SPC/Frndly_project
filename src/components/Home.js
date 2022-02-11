@@ -14,6 +14,7 @@ import Faq from './Faq';
 function Home() {
 	return (
 		<div className='app-details'>
+			<h2></h2>
 			<Nav />
 			<Headcards />
 			<Features />
