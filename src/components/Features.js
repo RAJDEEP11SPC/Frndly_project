@@ -18,7 +18,7 @@ const Features = () => {
       
       <MDBCol md="4" className='feature-box '>
         
-          <FaCheckSquare size={50} className='icon'/>
+          <FaCheckSquare size={50} className='icon c3'/>
           <h3 className='feature-title f3 '>Easy to use.</h3>
           <p >So easy to use, even your dog could do it.</p>
         

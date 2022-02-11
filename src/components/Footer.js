@@ -1,84 +1,92 @@
 import React from 'react';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
+import { FaFacebookF } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
-  return (
+	return (
+		<MDBFooter fluid className='footer-distributed'>
+			<MDBContainer>
+				<MDBRow>
+					<MDBCol md='4'>
+						<div className='footer-left'>
+							<h3>
+								Friendly<span>Project</span>
+							</h3>
 
-    <MDBFooter fluid className="footer-distributed" >
-      <MDBContainer >
-        <MDBRow>
-          <MDBCol md="4">
-          <div className="footer-left">
+							<p class='footer-links'>
+								<a href='/Home' className='link-1'>
+									Home
+								</a>
 
-          <h3>Friendly<span>Project</span></h3>
+								<a href='/AboutUs'>About Us</a>
 
-            <p class="footer-links">
-            <a href="#" className="link-1">Home</a>
+								<a href='/Services'>Services</a>
 
-            <a href="#">About</a>
-  
-            <a href="#">Faq</a>
-  
-            <a href="#">Contact</a>
+								<a href='/Helpline'>Helpline</a>
 
-            </p>
-            
-            <p class="footer-company-name">Organisation Name © 2015</p>
+								<a href='/Form'>Register</a>
+							</p>
 
-            </div>
+							<p class='footer-company-name'>
+								Organisation Name © 2022
+							</p>
+						</div>
+					</MDBCol>
+					<MDBCol md='4'>
+						<div className='footer-center'>
+							<div>
+								<p>35/I Middle Road, Kolkata-700075</p>
+							</div>
 
-          </MDBCol>
-          <MDBCol md="4">
-          <div className="footer-center">
+							<div>
+								<p>9051319246</p>
+							</div>
 
-            <div>
-            
-            <p><span>50/2</span> Naya Patty Road, Kolkata-700055</p>
-            </div>
+							<div>
+								<p>
+									<a href='mailto:xyzrajdeep@gmail.com'>
+										xyzrajdeep@gmail.com
+									</a>
+								</p>
+							</div>
+						</div>
+					</MDBCol>
 
-            <div>
-            
-            <p>+1.555.555.5555</p>
-            </div>
+					<MDBCol md='4'>
+						<div className='footer-right'>
+							<p className='footer-company-about'>
+								<span>About the company</span>
+								Pet-Rescue is an animal welfare organisation
+								with a vision of a future where every pet is
+								safe, respected and loved. We help save
+								thousands of lives every month by looking at the
+								big picture, disrupting the status quo and
+								helping animals find a forever home.
+							</p>
 
-            <div>
-    
-            <p><a href="mailto:support@company.com">support@company.com</a></p>
-            </div>
-
-        </div>
-          </MDBCol>
-
-          <MDBCol md="4">
-          
-          <div className="footer-right">
-
-        <p className="footer-company-about">
-        <span>About the company</span>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-        </p>
-
-<       div className="footer-icons">
-
-        <a href="#"><FaFacebookF /></a>
-        <a href="#"><FaTwitter /></a>
-        <a href="#"><FaInstagram /></a>
-        <a href="#"><FaEnvelope /></a>
-
-        </div>
-
-        </div>
-
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-      
-    </MDBFooter>
-  )
+							<div className='footer-icons'>
+								<a href='#'>
+									<FaFacebookF />
+								</a>
+								<a href='#'>
+									<FaTwitter />
+								</a>
+								<a href='#'>
+									<FaInstagram />
+								</a>
+								<a href='#'>
+									<FaEnvelope />
+								</a>
+							</div>
+						</div>
+					</MDBCol>
+				</MDBRow>
+			</MDBContainer>
+		</MDBFooter>
+	);
 };
 
 export default Footer;

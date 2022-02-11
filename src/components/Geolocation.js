@@ -1,46 +1,34 @@
-import React from "react";
-import { geolocated } from "react-geolocated";
+// import React, { useState } from 'react';
 
-class Demo extends React.Component {
-    render() {
-        return !this.props.isGeolocationAvailable ? (
-            <div>Your browser does not support Geolocation</div>
-        ) : !this.props.isGeolocationEnabled ? (
-            <div>Geolocation is not enabled</div>
-        ) : this.props.coords ? (
-            <table>
-                <tbody>
-                    <tr>
-                        <td>latitude</td>
-                        <td>{this.props.coords.latitude}</td>
-                    </tr>
-                    <tr>
-                        <td>longitude</td>
-                        <td>{this.props.coords.longitude}</td>
-                    </tr>
-                    <tr>
-                        <td>altitude</td>
-                        <td>{this.props.coords.altitude}</td>
-                    </tr>
-                    <tr>
-                        <td>heading</td>
-                        <td>{this.props.coords.heading}</td>
-                    </tr>
-                    <tr>
-                        <td>speed</td>
-                        <td>{this.props.coords.speed}</td>
-                    </tr>
-                </tbody>
-            </table>
-        ) : (
-            <div>Getting the location data&hellip; </div>
-        );
-    }
-}
+//   const Geolocation = () => {
+//   const [lat, setLat] = useState(null);
+//   const [lng, setLng] = useState(null);
+//   const [status, setStatus] = useState(null);
 
-export default geolocated({
-    positionOptions: {
-        enableHighAccuracy: false,
-    },
-    userDecisionTimeout: 5000,
-})(Demo);
+//   const getLocation = () => {
+//     if (!navigator.geolocation) {
+//       setStatus('Geolocation is not supported by your browser');
+//     } else {
+//       setStatus('Locating...');
+//       navigator.geolocation.getCurrentPosition((position) => {
+//         setStatus(null);
+//         setLat(position.coords.latitude);
+//         setLng(position.coords.longitude);
+//       }, () => {
+//         setStatus('Unable to retrieve your location');
+//       });
+//     }
+//   }
+
+//   return (
+//     <div className="App">
+//       <button onClick={getLocation}>Get Location</button>
+//       <h1>Coordinates</h1>
+//       <p>{status}</p>
+//       {lat && <p>Latitude: {lat}</p>}
+//       {lng && <p>Longitude: {lng}</p>}
+//     </div>
+//   );
+// }
+
+// export default Geolocation;
