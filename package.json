@@ -2,6 +2,7 @@
   "name": "pet-rescue-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aritrabanerjee11.github.io/Frndly_project",
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.21",
     "@testing-library/jest-dom": "^5.16.1",
@@ -31,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
