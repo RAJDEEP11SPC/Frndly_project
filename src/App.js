@@ -19,27 +19,13 @@ function App() {
 		<Router>
 			<Routes>
 				<Route exact path='/AboutU' element={<AboutUs />} />
-			</Routes>
-			<Routes>
 				<Route exact path='/AboutUs' element={<AboutUs />} />
-				<Route exact path='/' element={<Home />} />
-			</Routes>
-			<Routes>
+				<Route path='/' element={<Home />} />
 				<Route exact path='/Services' element={<Services />} />
-			</Routes>
-			<Routes>
 				<Route exact path='/Helpline' element={<Helpline />} />
-			</Routes>
-			<Routes>
-				<Route exact path='/For' element={<Form />} />
-			</Routes>
-			<Routes>
-				<Route exact path='/Geo' element={<Geo />} />
-			</Routes>
-			<Routes>
-				<Route exact path='/Home' element={<Home />} />
-			</Routes>
-			<Routes>
+				<Route exact path='/For' element={<Form />} />			
+				<Route exact path='/Geo' element={<Geo />} />			
+				<Route exact path='/Home' element={<Home />} />			
 				<Route exact path='/Form' element={<Form />} />
 			</Routes>
 		</Router>
