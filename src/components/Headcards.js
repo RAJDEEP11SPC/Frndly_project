@@ -12,7 +12,7 @@ function Headcards() {
 							<MDBCard style={{ maxWidth: '250rem' }}>
 								<MDBCardBody>
 									<div className='hcard-container'>
-										<div class='service-details'>
+										<div className='service-details'>
 											<img
 												src='./images/lady-img.jpg'
 												alt='realm'
@@ -59,7 +59,7 @@ function Headcards() {
 							<MDBCard style={{ maxWidth: '100rem' }}>
 								<MDBCardBody>
 									<div className='hcard-container'>
-										<div class='service-details'>
+										<div className='service-details'>
 											<img
 												src='./images/dog-img.jpg'
 												alt='realm'

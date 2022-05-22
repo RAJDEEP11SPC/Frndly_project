@@ -4,27 +4,27 @@ import Fb from './Fb'
 
 const Harmburger = () => {
 	return (
-		<div class='hamburger-menu'>
+		<div className='hamburger-menu'>
 			<input id='menu__toggle' type='checkbox' />
-			<label class='menu__btn' for='menu__toggle'>
+			<label className='menu__btn' htmlFor='menu__toggle'>
 				<span></span>
 			</label>
 
-			<ul class='menu__box'>
+			<ul className='menu__box'>
 				<li>
-					<a class='menu__item' href='/Home'>
+					<a className='menu__item' href='/Home'>
 						Home
 					</a>
 				</li>
 				<li>
-					{/* <a class='menu__item' href='/Login'>
+					{/* <a className='menu__item' href='/Login'>
 						Google Login
 					</a> */}
 					<Login />
 					
 				</li>
 				<li>
-					<a class='menu__item' href='#'>
+					<a className='menu__item' href='#'>
 						<Fb />
 					</a>
 				</li>
