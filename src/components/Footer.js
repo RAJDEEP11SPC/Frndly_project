@@ -68,16 +68,16 @@ const Footer = () => {
 							</p>
 
 							<div className='footer-icons'>
-								<a href='#'>
+								<a href='/'>
 									<FaFacebookF />
 								</a>
-								<a href='#'>
+								<a href='/'>
 									<FaTwitter />
 								</a>
-								<a href='#'>
+								<a href='/'>
 									<FaInstagram />
 								</a>
-								<a href='#'>
+								<a href='/'>
 									<FaEnvelope />
 								</a>
 							</div>

@@ -24,7 +24,7 @@ const Harmburger = () => {
 					
 				</li>
 				<li>
-					<a className='menu__item' href='#'>
+					<a className='menu__item' href='/'>
 						<Fb />
 					</a>
 				</li>

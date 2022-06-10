@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
@@ -7,10 +7,10 @@ import AboutUs from './components/AboutUs';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './components/Home';
-import Nav from './components/Nav';
+//import Nav from './components/Nav';
 import Form from './components/Form';
 import Geo from './components/Geo';
-import Login from './components/Login';
+//import Login from './components/Login';
 import Services from './components/Services';
 import Helpline from './components/Helpline';
 

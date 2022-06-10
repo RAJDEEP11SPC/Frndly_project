@@ -7,14 +7,14 @@ import Headcards from './Headcards';
 import Abtcard from './Abtcard';
 import Nav from './Nav';
 import FrontAbout from './FrontAbout';
-import Login from './Login';
+//import Login from './Login';
 import Faq from './Faq';
 
 
 function Home() {
 	return (
 		<div className='app-details'>
-			<h2></h2>
+			{/* <h2>lorem ipsum dolor</h2> */}
 			<Nav />
 			<Headcards />
 			<Features />

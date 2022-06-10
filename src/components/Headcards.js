@@ -20,7 +20,7 @@ function Headcards() {
 											/>
 											<div className='service-hover-text'>
 												<h3>Aritra Banerjee</h3>
-												<h4></h4>
+												{/* <h4></h4> */}
 												<p>
 													In 2020, Andy - a 2 year
 													old, Shih Tzu, was found
@@ -67,7 +67,7 @@ function Headcards() {
 											/>
 											<div className='service-hover-text'>
 												<h3>Soham Das</h3>
-												<h4></h4>
+												{/* <h4></h4> */}
 												<p>
 													A white ball of fur with the
 													most beautiful brown eyes

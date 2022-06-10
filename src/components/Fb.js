@@ -20,6 +20,8 @@ const Fb = () => {
 
   const componentClicked = () => {
       console.log('clicked');
+      console.log(userID);
+      console.log(email);
   }
 
   let fbContent;
