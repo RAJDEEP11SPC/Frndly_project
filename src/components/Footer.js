@@ -7,7 +7,7 @@ import { FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
-		<MDBFooter fluid className='footer-distributed'>
+		<MDBFooter fluid="true" className='footer-distributed'>
 			<MDBContainer>
 				<MDBRow>
 					<MDBCol md='4'>
@@ -16,7 +16,7 @@ const Footer = () => {
 								Friendly<span>Project</span>
 							</h3>
 
-							<p class='footer-links'>
+							<p className='footer-links'>
 								<a href='/Home' className='link-1'>
 									Home
 								</a>
@@ -30,7 +30,7 @@ const Footer = () => {
 								<a href='/Form'>Register</a>
 							</p>
 
-							<p class='footer-company-name'>
+							<p className='footer-company-name'>
 								Organisation Name © 2022
 							</p>
 						</div>
@@ -68,16 +68,16 @@ const Footer = () => {
 							</p>
 
 							<div className='footer-icons'>
-								<a href='#'>
+								<a href='/'>
 									<FaFacebookF />
 								</a>
-								<a href='#'>
+								<a href='/'>
 									<FaTwitter />
 								</a>
-								<a href='#'>
+								<a href='/'>
 									<FaInstagram />
 								</a>
-								<a href='#'>
+								<a href='/'>
 									<FaEnvelope />
 								</a>
 							</div>

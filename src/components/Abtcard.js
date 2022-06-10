@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBRow, MDBCol, MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
+import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 function Abtcard() {
 	return (

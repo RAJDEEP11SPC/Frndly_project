@@ -4,9 +4,11 @@ import Carousel from "react-bootstrap/Carousel";
 const Header = () => {
   return (
 
-    /* Carousel Section */
+   
+
+      /* Carousel Section */
   <section>
-  <Carousel className="stylingcs" interval={2000} variant="dark">
+  <Carousel className="stylingcs" interval={1000} variant="dark">
         <Carousel.Item >
           
 
@@ -62,8 +64,7 @@ const Header = () => {
         </Carousel.Item>
       </Carousel>
     </section>
-    
   );
 };
 
-export default Header;
+export default Header; 

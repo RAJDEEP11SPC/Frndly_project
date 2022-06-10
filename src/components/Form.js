@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
-import Geo from "./Geo";
-import { useNavigate } from "react-router-dom";
+//import Geo from "./Geo";
+//import { useNavigate } from "react-router-dom";
 
 
 

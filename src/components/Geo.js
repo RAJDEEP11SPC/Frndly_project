@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Form from './Form';
+//import Form from './Form';
 import MyMapComponent from './MyMapComponent';
 
 const Geo = () => {
@@ -20,6 +20,7 @@ const Geo = () => {
 				},
 				() => {
 					setStatus('Unable to retrieve your location');
+					console.log(status);
 				},
 			);
 		}
